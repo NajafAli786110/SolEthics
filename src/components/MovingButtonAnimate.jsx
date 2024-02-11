@@ -1,4 +1,3 @@
-"use client"
 import React, { useEffect } from 'react';
 
 
@@ -20,7 +19,7 @@ const MovingButtonAnimate = () => {
     <div className="circleAnimation">
       <div className='font-display'>Scroll Now</div>
       <div className="MainCircletext">
-        <p>Where Solution meet with Ethics . </p>
+        <p className='MainCircletextPara'>Where Solution meet with Ethics . </p>
       </div>
     </div>
   );

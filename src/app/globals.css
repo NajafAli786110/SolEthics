@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .circleAnimation {
 	position: relative;
 	height: 200px;
@@ -12,26 +13,15 @@
 	margin-top: 60px;
 }
 
-/* .circleAnimation .logo {
-	position: absolute;
-	width: 140px;
-	height: 140px;
-	background: url("https://assets.codepen.io/7344750/internal/avatars/users/default.png?fit=crop&format=auto&height=512&version=1657025755&width=512");
-	background-size: cover;
-	border-radius: 100vmax;
-	background-position: center;
-} */
-
 .MainCircletext {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	font-family: consolas;
 	color: #000;
-	font-size: 17px;
+	font-size: 16px;
 	animation: textRotation 8s linear infinite;
 }
-
 @keyframes textRotation {
 	to {
 		transform: rotate(360deg);
@@ -43,4 +33,10 @@
 	left: 50%;
 	font-size: 1.2em;
 	transform-origin: 0 100px;
+}
+
+.hero_span_word
+{
+	font-weight: bold;
+	color: #130047;
 }

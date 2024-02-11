@@ -12,18 +12,16 @@ export default function Home() {
   
   return (
     <main className="text-black">
-      <Container className="mt-18 sm:mt-32">
+      <Container className="mt-18 sm:mt-32 main_video_css">
         <FadeIn className="w-full">
-          <h1 className="font-display text-3xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-6xl text-center">
-            Ethical Design, Passionate Development, Digital Influence.
+          <h1 className="font-display text-7xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl text-center">
+            Ethical<span className="hero_span_word"> Design</span>, Passionate <span className="hero_span_word">Development</span>, Digital <span className="hero_span_word">Influence</span>.
           </h1>
           <p className="mt-6 text-xl text-neutral-600 text-center">
             As a pioneering digital agency, we specialize in providing ethical
             solutions that align with our clients' values and beliefs. At
             SolEthics, we understand the importance of addressing ethical
-            concerns in today's digital landscape. That's why we're committed to
-            offering transparent, sustainable, and socially responsible services
-            to our clients.
+            concerns in today's digital landscape.
           </p>
         </FadeIn>
         <MovingButtonAnimate />

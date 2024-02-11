@@ -1,5 +1,6 @@
 @tailwind base;
 
+
 @font-face {
   font-family: "Mona Sans";
   font-weight: 200 900;
@@ -7,4 +8,12 @@
   font-style: normal;
   font-stretch: 75% 125%;
   src: url("../fonts//Mona-Sans.var.woff2");
+}
+
+.main_video_css
+{
+	background: url("../videos/Solethics_Website_Hero_Bg.mp4") !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
