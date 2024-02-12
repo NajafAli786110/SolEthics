@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import RootLayout from "@/components/RootLayout";
 import "./globals.css";
@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import SplashScreen from "@/components/SplashScreen";
 
-export const metadata = {
+const metadata = {
   title: {
     template: "SolEthics",
     default: "SolEthics | Where Solution Meet Ethics",
@@ -22,6 +22,7 @@ export default function Layout({ children }) {
     if (isLoading) {
     }
   }, [isLoading]);
+
   return (
     <html
       lang="en"
